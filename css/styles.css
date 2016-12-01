@@ -2,9 +2,31 @@
 YOUR STYLES
 *******************/
 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
 
+main{
+    background: grey;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 1em;
+    padding-left: 3em;
+}
 
-
+section {
+    background: steelblue;
+    margin: 1em;
+    padding: 1em;
+    /* flex as child */
+    flex: 1 0 300px;
+    /* flex as parent */
+    
+    
+}
 /********************
 MEDIA QUERIES
 *******************/
